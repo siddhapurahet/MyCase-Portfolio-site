@@ -1,37 +1,46 @@
 import moviePhoto from "../assets/movie-photo.png"
 import textAnal from "../assets/text-anal.png"
 import blogWorld from  "../assets/blogworld.png"
+import Threadz from "../assets/3DThreadz.png"
 
 export const data=[
     {
         id:1,
         name:"Galaxy - A movie collection ",
         image:moviePhoto,
-        desc: "This project contains number of movies with information them including the rating, cast and many more. User can filter out the movie basedon the filter options provided and can also watch the trailer of the movie",
+        desc: "This project contains number of movies with information them including the rating, cast and many more. User can filter out the movie basedon the filter options provided and can also watch the trailer of the movie.",
         github:"https://github.com/siddhapurahet/Galaxy--A-movie-collection-react-application.git",
         live:"https://galaxy-movie-collection-application.onrender.com",
     },
     {
         id:2,
+        name:"3DThreadz",
+        image:Threadz,
+        desc: "A T-Shirt Customizer application, an interactive web application that allows users to design and personalize t-shirts in real-time. By leveraging modern web technologies, this tool offers an engaging experience with t-shirt colors, visualize their creations in 3D and much more.",
+        github:"https://github.com/siddhapurahet/3DThreadz/tree/master",
+        live:"https://threedthreadz-frontend.onrender.com/",
+    },
+    {
+        id:3,
         name:"Textanalyzer",
         image: textAnal,
-        desc: "TextAnalyzer is a react application used for different operations to do with text. Used for cunting number of words, number of characters, time taken to read the text, convert to uppercase, convert to lowercase and remove digits from the text",
+        desc: "TextAnalyzer is a react application used for different operations to do with text. Used for cunting number of words, number of characters, time taken to read the text, convert to uppercase, convert to lowercase and remove digits from the text.",
         github:"https://github.com/siddhapurahet/Text-Analyzer.git",
         live:"https://textparams.onrender.com",
     },
     {
-        id:3,
+        id:4,
         name:"BlogWorld",
         image:blogWorld,
-        desc: "A platform made in react that enables the users their point of view, knoeledge as well as information in form of blog, user can write blos on different topics. with the features of comments, login, sign up and see latest blogs",
+        desc: "A platform made in react that enables the users their point of view, knoeledge as well as information in form of blog, user can write blos on different topics. with the features of comments, login, sign up and see latest blogs.",
         github:"https://github.com/siddhapurahet/BlogWorld.git",
         live:"https://blogworld-la3e.onrender.com/",
     },
     {
-        id:4,
+        id:5,
         name:"News Corner",
         image: blogWorld,
-        desc: "A react single page appliation that combines news form various secors like Entertainment, business, technology, science and other. User can just view the news at fingertip based on the interest and also also go to the official page of news source by clicking on it",
+        desc: "A react single page appliation that combines news form various secors like Entertainment, business, technology, science and other. User can just view the news at fingertip based on the interest and also also go to the official page of news source by clicking on it.",
         github:"https://github.com/siddhapurahet/News-Corner-.git",
         live:"https://newscorner.onrender.com/",
     },
